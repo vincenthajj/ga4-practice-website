@@ -3,15 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GA4 Practice Website</title>
+    <title>Analytics Practice Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Welcome to My GA4 Practice Website</h1>
+    <header>
+        <h1>Analytics Practice Website</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <p>This website is built to learn Google Analytics and Google Tag Manager.</p>
+    <main>
+        <section>
+            <h2>Learn Google Analytics 4</h2>
+            <p>This website is built to practice Google Analytics and Google Tag Manager.</p>
 
-    <button>Learn More</button>
+            <button id="learn-more-btn">Learn More</button>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a practice website that we'll use to track page views, button clicks, scrolling, and form submissions.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required><br><br>
+
+                <input type="email" placeholder="Your Email" required><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
 
 </body>
 </html>
